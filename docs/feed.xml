@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xml" href="/feed.xslt.xml"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-02-16T11:41:33+10:00</updated><id>//</id><title type="html">Endou Blog</title><subtitle>This blog is about creativity and development.
+</subtitle><entry><title type="html">Development environment</title><link href="/development/2017/02/16/development-workspace.html" rel="alternate" type="text/html" title="Development environment" /><published>2017-02-16T10:38:52+10:00</published><updated>2017-02-16T10:38:52+10:00</updated><id>/development/2017/02/16/development-workspace</id><content type="html" xml:base="/development/2017/02/16/development-workspace.html">&lt;p&gt;What am i using for development?&lt;/p&gt;
+
+&lt;p&gt;I have little notebook with very low resources (integrated videocard, 1gb ram etc). But it doesn’t meant i have to use old technologies, so that’s my list:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;OS: Windows 10 + Lubuntu LTS&lt;/li&gt;
+  &lt;li&gt;Utils (yes, that’s important):
+    &lt;ul&gt;
+      &lt;li&gt;Git&lt;/li&gt;
+      &lt;li&gt;Bash (on windows it’s included in git package with MSYS-like MINGW environment)&lt;/li&gt;
+      &lt;li&gt;SSH&lt;/li&gt;
+      &lt;li&gt;CMake&lt;/li&gt;
+      &lt;li&gt;Ruby&lt;/li&gt;
+      &lt;li&gt;VC++&lt;/li&gt;
+      &lt;li&gt;Clang (+ llvm, lldb and etc)&lt;/li&gt;
+      &lt;li&gt;Python3 (Anaconda python distribution)&lt;/li&gt;
+      &lt;li&gt;Nodejs LTS&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;IDEs:
+    &lt;ul&gt;
+      &lt;li&gt;Visual Studio&lt;/li&gt;
+      &lt;li&gt;Intellij Idea (community)&lt;/li&gt;
+      &lt;li&gt;Intellij Pycharm (community edition as well)&lt;/li&gt;
+      &lt;li&gt;Qt Creator&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Programs:
+    &lt;ul&gt;
+      &lt;li&gt;Gimp image editor&lt;/li&gt;
+      &lt;li&gt;Blender for 3d manipulation&lt;/li&gt;
+      &lt;li&gt;Audacity for audio editing&lt;/li&gt;
+      &lt;li&gt;SimpleScreenRecorder&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><summary type="html">What am i using for development?</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2017/02/15/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-02-15T19:38:52+10:00</published><updated>2017-02-15T19:38:52+10:00</updated><id>/jekyll/update/2017/02/15/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2017/02/15/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Hello, world :D</title><link href="/hello/world/2017/02/15/hello-world.html" rel="alternate" type="text/html" title="Hello, world :D" /><published>2017-02-15T19:38:52+10:00</published><updated>2017-02-15T19:38:52+10:00</updated><id>/hello/world/2017/02/15/hello-world</id><content type="html" xml:base="/hello/world/2017/02/15/hello-world.html">&lt;p&gt;Hello, world! I’m going to start this blog to increase my self-confidence in art of programming. Aaaand… It starts.&lt;/p&gt;</content><summary type="html">Hello, world! I’m going to start this blog to increase my self-confidence in art of programming. Aaaand… It starts.</summary></entry></feed>
